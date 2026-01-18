@@ -29,7 +29,7 @@ with open("Taux_de_couverture_solaire_2025-12-18_13-22.csv", encoding="utf-8") a
 
 
 # Courbe pour le taux max annuel
-plt.plot(dates_max, valeurs_max, color="purple", marker="o", linewidth=2, label="Taux de couverture max (annuel)")
+plt.plot(dates_max, valeurs_max, color="purple", marker="o", )
 
 plt.title("Taux de couverture solaire en France (2014–2025)")
 plt.xlabel("Année")

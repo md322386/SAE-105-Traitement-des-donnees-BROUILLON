@@ -1,5 +1,4 @@
 import csv
-import csv
 from datetime import datetime
 import matplotlib.pyplot as plt
 
@@ -36,9 +35,8 @@ for date in sorted(data.keys()):
 
 plt.figure(figsize=(12, 6))
 
-plt.plot(dates, solaire, label="Solaire", color="orange", linewidth=2)
-plt.plot(dates, nucleaire, label="Nucléaire", color="blue", linewidth=2)
-
+plt.plot(dates, solaire, label="Solaire", color="orange" )
+plt.plot(dates, nucleaire, label="Nucléaire", color="blue" )
 plt.title("Production d'énergie : Solaire vs Nucléaire")
 plt.xlabel("Année")
 plt.ylabel("Production (TWh)")
